@@ -3,11 +3,11 @@ package br.com.erudio;
 public class Greeting {
 
     private final long id;
-    private  final String content;
+    private  final String contente;
 
     public Greeting(long id, String content) {
         this.id = id;
-        this.content = content;
+        this.contente = content;
     }
 
     public long getId() {
@@ -15,6 +15,6 @@ public class Greeting {
     }
 
     public String getContent() {
-        return content;
+        return contente;
     }
 }
